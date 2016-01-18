@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\FejlecTipus:
+    properties:
+        szlasorszam:
+            expose: true
+            access_type: public_method
+            serialized_name: szlasorszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzlasorszam
+                setter: setSzlasorszam
+            type: string
+        szlatipus:
+            expose: true
+            access_type: public_method
+            serialized_name: szlatipus
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzlatipus
+                setter: setSzlatipus
+            type: integer
+        szladatum:
+            expose: true
+            access_type: public_method
+            serialized_name: szladatum
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzladatum
+                setter: setSzladatum
+            type: 'DateTime<''Y-m-d''>'
+        teljdatum:
+            expose: true
+            access_type: public_method
+            serialized_name: teljdatum
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTeljdatum
+                setter: setTeljdatum
+            type: 'DateTime<''Y-m-d''>'

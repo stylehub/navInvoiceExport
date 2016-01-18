@@ -1,0 +1,26 @@
+{
+    "require": {
+        "goetas/xsd2php":"dev-master",
+        "goetas/xsd-reader":"2.*@dev",
+        "jms/serializer": "xsd2php-dev as 0.18.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/goetas/serializer.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AronSzigetvari/xsd2php.git"
+        }
+    ],
+    "scripts": {
+        "build-classes": "xsd2php convert:php szamlaexport.xsd --ns-map \"http://schemas.nav.gov.hu/2013/szamla;Dream/NavInvoiceExport/Data/\" --ns-dest \"Dream/NavInvoiceExport/Data/;src/Data\" --naming-strategy \"Dream/NavInvoiceExport/NamingStrategy/ShortHungarian\"",
+        "build-meta": "xsd2php convert:jms-yaml szamlaexport.xsd --ns-map \"http://schemas.nav.gov.hu/2013/szamla;Dream/NavInvoiceExport/Data/\" --ns-dest \"Dream/NavInvoiceExport/Data/;res/Metadata/JMS\" --naming-strategy \"Dream/NavInvoiceExport/NamingStrategy/ShortHungarian\""
+    },
+    "autoload": {
+        "psr-4": {
+            "Dream\\NavInvoiceExport\\": "src/"
+        }
+    }
+}

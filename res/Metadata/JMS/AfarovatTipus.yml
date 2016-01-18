@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\AfarovatTipus:
+    properties:
+        nettoar:
+            expose: true
+            access_type: public_method
+            serialized_name: nettoar
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getNettoar
+                setter: setNettoar
+            type: float
+        adokulcs:
+            expose: true
+            access_type: public_method
+            serialized_name: adokulcs
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAdokulcs
+                setter: setAdokulcs
+            type: float
+        adoertek:
+            expose: true
+            access_type: public_method
+            serialized_name: adoertek
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAdoertek
+                setter: setAdoertek
+            type: float
+        bruttoar:
+            expose: true
+            access_type: public_method
+            serialized_name: bruttoar
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getBruttoar
+                setter: setBruttoar
+            type: float

@@ -1,0 +1,82 @@
+Dream\NavInvoiceExport\Data\SzamlakibocsatoTipus:
+    properties:
+        adoszam:
+            expose: true
+            access_type: public_method
+            serialized_name: adoszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAdoszam
+                setter: setAdoszam
+            type: string
+        kozadoszam:
+            expose: true
+            access_type: public_method
+            serialized_name: kozadoszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKozadoszam
+                setter: setKozadoszam
+            type: string
+        kisadozo:
+            expose: true
+            access_type: public_method
+            serialized_name: kisadozo
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKisadozo
+                setter: setKisadozo
+            type: boolean
+        nev:
+            expose: true
+            access_type: public_method
+            serialized_name: nev
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getNev
+                setter: setNev
+            type: string
+        cim:
+            expose: true
+            access_type: public_method
+            serialized_name: cim
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getCim
+                setter: setCim
+            type: Dream\NavInvoiceExport\Data\CimTipus
+        egyeniVallalkozo:
+            expose: true
+            access_type: public_method
+            serialized_name: egyeni_vallalkozo
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getEgyeniVallalkozo
+                setter: setEgyeniVallalkozo
+            type: boolean
+        evNyilvTartSzam:
+            expose: true
+            access_type: public_method
+            serialized_name: ev_nyilv_tart_szam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getEvNyilvTartSzam
+                setter: setEvNyilvTartSzam
+            type: string
+        evNeve:
+            expose: true
+            access_type: public_method
+            serialized_name: ev_neve
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getEvNeve
+                setter: setEvNeve
+            type: string

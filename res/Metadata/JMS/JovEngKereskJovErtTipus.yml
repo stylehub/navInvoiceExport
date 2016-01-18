@@ -1,0 +1,22 @@
+Dream\NavInvoiceExport\Data\JovEngKereskJovErtTipus:
+    properties:
+        engSzam:
+            expose: true
+            access_type: public_method
+            serialized_name: eng_szam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getEngSzam
+                setter: setEngSzam
+            type: string
+        vevoSzam:
+            expose: true
+            access_type: public_method
+            serialized_name: vevo_szam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getVevoSzam
+                setter: setVevoSzam
+            type: string

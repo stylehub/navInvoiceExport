@@ -1,0 +1,32 @@
+Dream\NavInvoiceExport\Data\BeszallokartyaTipus:
+    properties:
+        jaratszam:
+            expose: true
+            access_type: public_method
+            serialized_name: jaratszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getJaratszam
+                setter: setJaratszam
+            type: string
+        kedvNeve:
+            expose: true
+            access_type: public_method
+            serialized_name: kedv_neve
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKedvNeve
+                setter: setKedvNeve
+            type: string
+        uticel:
+            expose: true
+            access_type: public_method
+            serialized_name: uticel
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getUticel
+                setter: setUticel
+            type: string

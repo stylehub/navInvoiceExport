@@ -1,0 +1,3 @@
+Dream\NavInvoiceExport\Data\Szamlak:
+    xml_root_name: szamlak
+    xml_root_namespace: 'http://schemas.nav.gov.hu/2013/szamla'

@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\VizikozlTipus:
+    properties:
+        hajoHossz:
+            expose: true
+            access_type: public_method
+            serialized_name: hajo_hossz
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getHajoHossz
+                setter: setHajoHossz
+            type: float
+        vizitev:
+            expose: true
+            access_type: public_method
+            serialized_name: vizitev
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getVizitev
+                setter: setVizitev
+            type: string
+        forgbaDatum:
+            expose: true
+            access_type: public_method
+            serialized_name: forgba_datum
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getForgbaDatum
+                setter: setForgbaDatum
+            type: 'DateTime<''Y-m-d''>'
+        hajozottOra:
+            expose: true
+            access_type: public_method
+            serialized_name: hajozott_ora
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getHajozottOra
+                setter: setHajozottOra
+            type: float

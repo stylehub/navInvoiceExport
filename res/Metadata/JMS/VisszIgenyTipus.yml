@@ -1,0 +1,66 @@
+Dream\NavInvoiceExport\Data\VisszIgenyTipus:
+    properties:
+        visszIgenytetel:
+            expose: true
+            access_type: public_method
+            serialized_name: vissz_igenytetel
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getVisszIgenytetel
+                setter: setVisszIgenytetel
+            xml_list:
+                inline: true
+                entry_name: vissz_igenytetel
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            type: array<Dream\NavInvoiceExport\Data\VisszIgenytetelTipus>
+        szla:
+            expose: true
+            access_type: public_method
+            serialized_name: szla
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzla
+                setter: setSzla
+            type: string
+        szlaKelte:
+            expose: true
+            access_type: public_method
+            serialized_name: szla_kelte
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzlaKelte
+                setter: setSzlaKelte
+            type: 'DateTime<''Y-m-d''>'
+        kotelezettNeve:
+            expose: true
+            access_type: public_method
+            serialized_name: kotelezett_neve
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKotelezettNeve
+                setter: setKotelezettNeve
+            type: string
+        kotelezettCime:
+            expose: true
+            access_type: public_method
+            serialized_name: kotelezett_cime
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKotelezettCime
+                setter: setKotelezettCime
+            type: Dream\NavInvoiceExport\Data\CimTipus
+        kotelezettAdoszama:
+            expose: true
+            access_type: public_method
+            serialized_name: kotelezett_adoszama
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKotelezettAdoszama
+                setter: setKotelezettAdoszama
+            type: string

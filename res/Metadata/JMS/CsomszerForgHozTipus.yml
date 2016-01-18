@@ -1,0 +1,32 @@
+Dream\NavInvoiceExport\Data\CsomszerForgHozTipus:
+    properties:
+        termekDij:
+            expose: true
+            access_type: public_method
+            serialized_name: termek_dij
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTermekDij
+                setter: setTermekDij
+            type: float
+        reszenkentForgHoz:
+            expose: true
+            access_type: public_method
+            serialized_name: reszenkent_forg_hoz
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getReszenkentForgHoz
+                setter: setReszenkentForgHoz
+            type: boolean
+        vevoNyilatkozat:
+            expose: true
+            access_type: public_method
+            serialized_name: vevo_nyilatkozat
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getVevoNyilatkozat
+                setter: setVevoNyilatkozat
+            type: Dream\NavInvoiceExport\Data\VevoNyilatkozatTipus

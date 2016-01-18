@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\FoldikozlTipus:
+    properties:
+        hengerur:
+            expose: true
+            access_type: public_method
+            serialized_name: hengerur
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getHengerur
+                setter: setHengerur
+            type: float
+        teljesitmeny:
+            expose: true
+            access_type: public_method
+            serialized_name: teljesitmeny
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTeljesitmeny
+                setter: setTeljesitmeny
+            type: float
+        forgbaDatum:
+            expose: true
+            access_type: public_method
+            serialized_name: forgba_datum
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getForgbaDatum
+                setter: setForgbaDatum
+            type: 'DateTime<''Y-m-d''>'
+        futottkm:
+            expose: true
+            access_type: public_method
+            serialized_name: futottkm
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getFutottkm
+                setter: setFutottkm
+            type: float

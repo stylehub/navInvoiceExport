@@ -1,0 +1,62 @@
+Dream\NavInvoiceExport\Data\NemKotelezoTipus:
+    properties:
+        fizHatarido:
+            expose: true
+            access_type: public_method
+            serialized_name: fiz_hatarido
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getFizHatarido
+                setter: setFizHatarido
+            type: 'DateTime<''Y-m-d''>'
+        fizMod:
+            expose: true
+            access_type: public_method
+            serialized_name: fiz_mod
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getFizMod
+                setter: setFizMod
+            type: string
+        penznem:
+            expose: true
+            access_type: public_method
+            serialized_name: penznem
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getPenznem
+                setter: setPenznem
+            type: string
+        szlaForma:
+            expose: true
+            access_type: public_method
+            serialized_name: szla_forma
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzlaForma
+                setter: setSzlaForma
+            type: string
+        kibocsatoBankszla:
+            expose: true
+            access_type: public_method
+            serialized_name: kibocsato_bankszla
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKibocsatoBankszla
+                setter: setKibocsatoBankszla
+            type: string
+        befogadoBankszla:
+            expose: true
+            access_type: public_method
+            serialized_name: befogado_bankszla
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getBefogadoBankszla
+                setter: setBefogadoBankszla
+            type: string
