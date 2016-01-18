@@ -1,7 +1,15 @@
 {
+    "name": "dream/navinvoiceexport",
+    "description": "Model and serializer for exporting invoice data for the Hungarian Tax and Customs Authority",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Szigetvári Áron"
+        }
+    ],
     "require": {
-        "goetas/xsd2php":"dev-master",
-        "goetas/xsd-reader":"2.*@dev",
+        "goetas/xsd2php": "dev-master",
+        "goetas/xsd-reader": "2.*@dev",
         "jms/serializer": "xsd2php-dev as 0.18.0"
     },
     "repositories": [
