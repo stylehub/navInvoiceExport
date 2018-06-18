@@ -2,12 +2,17 @@
 namespace Dream\NavInvoiceExport;
 
 use JMS\Serializer\SerializerBuilder;
+use JMS\Serializer\Serializer;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
 use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\BaseTypesHandler;
 use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\XmlSchemaDateHandler;
 
 class SerializerFactory
 {
+    /**
+     *
+     * @return Serializer
+     */
     static function create()
     {
         $serializerBuilder = SerializerBuilder::create();
