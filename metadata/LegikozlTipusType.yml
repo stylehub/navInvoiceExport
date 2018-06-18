@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\LegikozlTipusType:
+    properties:
+        felsztomeg:
+            expose: true
+            access_type: public_method
+            serialized_name: felsztomeg
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getFelsztomeg
+                setter: setFelsztomeg
+            type: float
+        legiker:
+            expose: true
+            access_type: public_method
+            serialized_name: legiker
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getLegiker
+                setter: setLegiker
+            type: boolean
+        forgbaDatum:
+            expose: true
+            access_type: public_method
+            serialized_name: forgba_datum
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getForgbaDatum
+                setter: setForgbaDatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        repultora:
+            expose: true
+            access_type: public_method
+            serialized_name: repultora
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getRepultora
+                setter: setRepultora
+            type: float

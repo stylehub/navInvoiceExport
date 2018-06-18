@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\VegosszegTipusType:
+    properties:
+        nettoarossz:
+            expose: true
+            access_type: public_method
+            serialized_name: nettoarossz
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getNettoarossz
+                setter: setNettoarossz
+            type: float
+        afaertekossz:
+            expose: true
+            access_type: public_method
+            serialized_name: afaertekossz
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAfaertekossz
+                setter: setAfaertekossz
+            type: float
+        bruttoarossz:
+            expose: true
+            access_type: public_method
+            serialized_name: bruttoarossz
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getBruttoarossz
+                setter: setBruttoarossz
+            type: float
+        afaTartalom:
+            expose: true
+            access_type: public_method
+            serialized_name: afa_tartalom
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAfaTartalom
+                setter: setAfaTartalom
+            type: float

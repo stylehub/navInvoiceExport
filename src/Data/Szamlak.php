@@ -5,7 +5,7 @@ namespace Dream\NavInvoiceExport\Data;
 /**
  * Class representing Szamlak
  */
-class Szamlak extends SzamlakTipus
+class Szamlak extends SzamlakTipusType
 {
 
 

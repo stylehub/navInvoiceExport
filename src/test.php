@@ -24,15 +24,15 @@ $report->setExportDatuma(new \DateTime)
 
 
 
-$invoice = new Data\SzamlaTipus();
-$header = new Data\FejlecTipus();
+$invoice = new Data\SzamlaTipusType();
+$header = new Data\FejlecTipusType();
 $header->setSzladatum(new DateTime('2015-01-02'))
     ->setSzlasorszam('TEST1/1')
-    ->setSzlatipus(1)
+    ->setSzlaTipus(1)
     ->setTeljdatum(new DateTime('2015-01-01'));
 $invoice->setFejlec($header);
 
-$szamlakibocsato = new Data\SzamlakibocsatoTipus();
+$szamlakibocsato = new Data\SzamlakibocsatoTipusType();
 $szamlakibocsato->setAdoszam('111111111');
 
 $invoice->setSzamlakibocsato($szamlakibocsato);

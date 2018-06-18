@@ -3,8 +3,8 @@ namespace Dream\NavInvoiceExport;
 
 use JMS\Serializer\SerializerBuilder;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
-use Goetas\Xsd\XsdToPhp\Jms\Handler\BaseTypesHandler;
-use Goetas\Xsd\XsdToPhp\Jms\Handler\XmlSchemaDateHandler;
+use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\BaseTypesHandler;
+use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\XmlSchemaDateHandler;
 
 class SerializerFactory
 {
@@ -13,12 +13,12 @@ class SerializerFactory
         $serializerBuilder = SerializerBuilder::create();
 
         $serializerBuilder
-            ->addMetadataDir('../res/Metadata/JMS', 'Dream\NavInvoiceExport\Data')
-            ->setCacheDir('../temp/jmscache')
+            ->addMetadataDir(realpath(__DIR__ . '/../metadata'), 'Dream\NavInvoiceExport\Data')
+            ->setCacheDir(realpath(__DIR__ . '/../temp'))
             ->configureHandlers(function (HandlerRegistryInterface $handler) use ($serializerBuilder) {
                 $serializerBuilder->addDefaultHandlers();
-                $handler->registerSubscribingHandler(new XmlSchemaDateHandler()); // XMLSchema date handling
                 $handler->registerSubscribingHandler(new BaseTypesHandler()); // XMLSchema List handling
+                $handler->registerSubscribingHandler(new XmlSchemaDateHandler()); // XMLSchema date handling
             });
 
         $serializer = $serializerBuilder->build();

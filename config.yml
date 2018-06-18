@@ -1,0 +1,9 @@
+xsd2php:
+  namespaces:
+    'http://schemas.nav.gov.hu/2013/szamla': 'Dream\NavInvoiceExport\Data'
+  destinations_php:
+    'Dream\NavInvoiceExport\Data': src/Data
+  destinations_jms:
+    'Dream\NavInvoiceExport\Data': metadata
+  naming_strategy: short
+  path_generator: psr4
