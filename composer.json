@@ -23,8 +23,8 @@
         }
     ],
     "scripts": {
-        "build-classes": "xsd2php convert:php szamlaexport.xsd --ns-map \"http://schemas.nav.gov.hu/2013/szamla;Dream/NavInvoiceExport/Data/\" --ns-dest \"Dream/NavInvoiceExport/Data/;src/Data\" --naming-strategy \"Dream/NavInvoiceExport/NamingStrategy/ShortHungarian\"",
-        "build-meta": "xsd2php convert:jms-yaml szamlaexport.xsd --ns-map \"http://schemas.nav.gov.hu/2013/szamla;Dream/NavInvoiceExport/Data/\" --ns-dest \"Dream/NavInvoiceExport/Data/;res/Metadata/JMS\" --naming-strategy \"Dream/NavInvoiceExport/NamingStrategy/ShortHungarian\""
+        "build-classes": "xsd2php convert:php szamlaexport.xsd --ns-map \"http://schemas.nav.gov.hu/2013/szamla;Dream/NavInvoiceExport/Data/\" --ns-dest \"Dream/NavInvoiceExport/Data/;src/Data\" --naming-strategy \"short\"",
+        "build-meta": "xsd2php convert:jms-yaml szamlaexport.xsd --ns-map \"http://schemas.nav.gov.hu/2013/szamla;Dream/NavInvoiceExport/Data/\" --ns-dest \"Dream/NavInvoiceExport/Data/;res/Metadata/JMS\" --naming-strategy \"short\""
     },
     "autoload": {
         "psr-4": {

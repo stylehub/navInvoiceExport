@@ -1,0 +1,114 @@
+Dream\NavInvoiceExport\Data\SzamlaTipusType:
+    properties:
+        fejlec:
+            expose: true
+            access_type: public_method
+            serialized_name: fejlec
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getFejlec
+                setter: setFejlec
+            type: Dream\NavInvoiceExport\Data\FejlecTipusType
+        szamlakibocsato:
+            expose: true
+            access_type: public_method
+            serialized_name: szamlakibocsato
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzamlakibocsato
+                setter: setSzamlakibocsato
+            type: Dream\NavInvoiceExport\Data\SzamlakibocsatoTipusType
+        vevo:
+            expose: true
+            access_type: public_method
+            serialized_name: vevo
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getVevo
+                setter: setVevo
+            type: Dream\NavInvoiceExport\Data\VevoTipusType
+        kepviselo:
+            expose: true
+            access_type: public_method
+            serialized_name: kepviselo
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKepviselo
+                setter: setKepviselo
+            type: Dream\NavInvoiceExport\Data\KepviseloTipusType
+        termekSzolgaltatasTetelek:
+            expose: true
+            access_type: public_method
+            serialized_name: termek_szolgaltatas_tetelek
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTermekSzolgaltatasTetelek
+                setter: setTermekSzolgaltatasTetelek
+            xml_list:
+                inline: true
+                entry_name: termek_szolgaltatas_tetelek
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            type: array<Dream\NavInvoiceExport\Data\TermekSzolgaltatasTetelekTipusType>
+        modositoSzla:
+            expose: true
+            access_type: public_method
+            serialized_name: modosito_szla
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getModositoSzla
+                setter: setModositoSzla
+            xml_list:
+                inline: true
+                entry_name: modosito_szla
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            type: array<Dream\NavInvoiceExport\Data\ModositoSzlaTipusType>
+        gyujtoSzla:
+            expose: true
+            access_type: public_method
+            serialized_name: gyujto_szla
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getGyujtoSzla
+                setter: setGyujtoSzla
+            xml_list:
+                inline: true
+                entry_name: gyujto_szla
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            type: array<Dream\NavInvoiceExport\Data\GyujtoSzlaTipusType>
+        zaradekok:
+            expose: true
+            access_type: public_method
+            serialized_name: zaradekok
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getZaradekok
+                setter: setZaradekok
+            type: Dream\NavInvoiceExport\Data\ZaradekokTipusType
+        nemKotelezo:
+            expose: true
+            access_type: public_method
+            serialized_name: nem_kotelezo
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getNemKotelezo
+                setter: setNemKotelezo
+            type: Dream\NavInvoiceExport\Data\NemKotelezoTipusType
+        osszesites:
+            expose: true
+            access_type: public_method
+            serialized_name: osszesites
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getOsszesites
+                setter: setOsszesites
+            type: Dream\NavInvoiceExport\Data\OsszesitesTipusType

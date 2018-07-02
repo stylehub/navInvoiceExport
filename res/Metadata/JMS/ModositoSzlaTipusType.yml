@@ -1,0 +1,12 @@
+Dream\NavInvoiceExport\Data\ModositoSzlaTipusType:
+    properties:
+        eredetiSorszam:
+            expose: true
+            access_type: public_method
+            serialized_name: eredeti_sorszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getEredetiSorszam
+                setter: setEredetiSorszam
+            type: string

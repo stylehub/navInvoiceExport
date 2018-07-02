@@ -1,0 +1,22 @@
+Dream\NavInvoiceExport\Data\VevoNyilatkozatTipusType:
+    properties:
+        vevoNemFizet:
+            expose: true
+            access_type: public_method
+            serialized_name: vevo_nem_fizet
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getVevoNemFizet
+                setter: setVevoNemFizet
+            type: boolean
+        iktatottIdoszak:
+            expose: true
+            access_type: public_method
+            serialized_name: iktatott_idoszak
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getIktatottIdoszak
+                setter: setIktatottIdoszak
+            type: string

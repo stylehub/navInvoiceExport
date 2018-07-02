@@ -1,0 +1,102 @@
+Dream\NavInvoiceExport\Data\CimTipusType:
+    properties:
+        iranyitoszam:
+            expose: true
+            access_type: public_method
+            serialized_name: iranyitoszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getIranyitoszam
+                setter: setIranyitoszam
+            type: string
+        telepules:
+            expose: true
+            access_type: public_method
+            serialized_name: telepules
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTelepules
+                setter: setTelepules
+            type: string
+        kerulet:
+            expose: true
+            access_type: public_method
+            serialized_name: kerulet
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKerulet
+                setter: setKerulet
+            type: string
+        kozteruletNeve:
+            expose: true
+            access_type: public_method
+            serialized_name: kozterulet_neve
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKozteruletNeve
+                setter: setKozteruletNeve
+            type: string
+        kozteruletJellege:
+            expose: true
+            access_type: public_method
+            serialized_name: kozterulet_jellege
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKozteruletJellege
+                setter: setKozteruletJellege
+            type: string
+        hazszam:
+            expose: true
+            access_type: public_method
+            serialized_name: hazszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getHazszam
+                setter: setHazszam
+            type: string
+        epulet:
+            expose: true
+            access_type: public_method
+            serialized_name: epulet
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getEpulet
+                setter: setEpulet
+            type: string
+        lepcsohaz:
+            expose: true
+            access_type: public_method
+            serialized_name: lepcsohaz
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getLepcsohaz
+                setter: setLepcsohaz
+            type: string
+        szint:
+            expose: true
+            access_type: public_method
+            serialized_name: szint
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzint
+                setter: setSzint
+            type: string
+        ajto:
+            expose: true
+            access_type: public_method
+            serialized_name: ajto
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAjto
+                setter: setAjto
+            type: string

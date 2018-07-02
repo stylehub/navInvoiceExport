@@ -1,0 +1,42 @@
+Dream\NavInvoiceExport\Data\VevoTipusType:
+    properties:
+        adoszam:
+            expose: true
+            access_type: public_method
+            serialized_name: adoszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getAdoszam
+                setter: setAdoszam
+            type: string
+        kozadoszam:
+            expose: true
+            access_type: public_method
+            serialized_name: kozadoszam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKozadoszam
+                setter: setKozadoszam
+            type: string
+        nev:
+            expose: true
+            access_type: public_method
+            serialized_name: nev
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getNev
+                setter: setNev
+            type: string
+        cim:
+            expose: true
+            access_type: public_method
+            serialized_name: cim
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getCim
+                setter: setCim
+            type: Dream\NavInvoiceExport\Data\CimTipusType

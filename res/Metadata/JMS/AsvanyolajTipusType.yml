@@ -1,0 +1,92 @@
+Dream\NavInvoiceExport\Data\AsvanyolajTipusType:
+    properties:
+        homerseklet:
+            expose: true
+            access_type: public_method
+            serialized_name: homerseklet
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getHomerseklet
+                setter: setHomerseklet
+            type: float
+        tomeg:
+            expose: true
+            access_type: public_method
+            serialized_name: tomeg
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTomeg
+                setter: setTomeg
+            type: float
+        tomegMert:
+            expose: true
+            access_type: public_method
+            serialized_name: tomeg_mert
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTomegMert
+                setter: setTomegMert
+            type: string
+        suruseg:
+            expose: true
+            access_type: public_method
+            serialized_name: suruseg
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSuruseg
+                setter: setSuruseg
+            type: float
+        surusegMert:
+            expose: true
+            access_type: public_method
+            serialized_name: suruseg_mert
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSurusegMert
+                setter: setSurusegMert
+            type: string
+        terfogat:
+            expose: true
+            access_type: public_method
+            serialized_name: terfogat
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTerfogat
+                setter: setTerfogat
+            type: float
+        terfogatMert:
+            expose: true
+            access_type: public_method
+            serialized_name: terfogat_mert
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTerfogatMert
+                setter: setTerfogatMert
+            type: string
+        minoseg:
+            expose: true
+            access_type: public_method
+            serialized_name: minoseg
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getMinoseg
+                setter: setMinoseg
+            type: string
+        tanusitas:
+            expose: true
+            access_type: public_method
+            serialized_name: tanusitas
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getTanusitas
+                setter: setTanusitas
+            type: string

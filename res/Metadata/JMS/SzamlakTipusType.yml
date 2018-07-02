@@ -1,0 +1,76 @@
+Dream\NavInvoiceExport\Data\SzamlakTipusType:
+    properties:
+        exportDatuma:
+            expose: true
+            access_type: public_method
+            serialized_name: export_datuma
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getExportDatuma
+                setter: setExportDatuma
+            type: 'DateTime<''Y-m-d''>'
+        exportSzlaDb:
+            expose: true
+            access_type: public_method
+            serialized_name: export_szla_db
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getExportSzlaDb
+                setter: setExportSzlaDb
+            type: float
+        kezdoIdo:
+            expose: true
+            access_type: public_method
+            serialized_name: kezdo_ido
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKezdoIdo
+                setter: setKezdoIdo
+            type: 'DateTime<''Y-m-d''>'
+        zaroIdo:
+            expose: true
+            access_type: public_method
+            serialized_name: zaro_ido
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getZaroIdo
+                setter: setZaroIdo
+            type: 'DateTime<''Y-m-d''>'
+        kezdoSzlaSzam:
+            expose: true
+            access_type: public_method
+            serialized_name: kezdo_szla_szam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getKezdoSzlaSzam
+                setter: setKezdoSzlaSzam
+            type: string
+        zaroSzlaSzam:
+            expose: true
+            access_type: public_method
+            serialized_name: zaro_szla_szam
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getZaroSzlaSzam
+                setter: setZaroSzlaSzam
+            type: string
+        szamla:
+            expose: true
+            access_type: public_method
+            serialized_name: szamla
+            xml_element:
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            accessor:
+                getter: getSzamla
+                setter: setSzamla
+            xml_list:
+                inline: true
+                entry_name: szamla
+                namespace: 'http://schemas.nav.gov.hu/2013/szamla'
+            type: array<Dream\NavInvoiceExport\Data\SzamlaTipusType>
